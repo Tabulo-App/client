@@ -1,4 +1,5 @@
 import Header from './Header'
+import Footer from './Footer'
 
 const handleSubmit = e => {
     e.preventDefault()
@@ -92,6 +93,9 @@ function Landing() {
                 <p>Sign up and join over 1,000,000 teams worldwide who are using Tabulo to get more done.</p>
                 <button>Get Started - It's Free!</button>
             </div>
+
+            <Footer />
+            
         </div>
     )
 }
