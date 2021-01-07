@@ -1,5 +1,7 @@
+//library imports
 import { Link } from 'react-router-dom'
 
+//PageNotFound component
 function PageNotFound() {
     return (
         <div>
@@ -10,4 +12,5 @@ function PageNotFound() {
     )
 }
 
+//exports
 export default PageNotFound
