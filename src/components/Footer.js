@@ -1,8 +1,11 @@
+//library imports
 import { Link } from 'react-router-dom'
 
+//Footer component
 function Footer() {
     return (
         <footer>
+
             <select name='language'>
                 <optgroup label='Select a language...'>
                     <option value='English'>English</option>
@@ -28,8 +31,10 @@ function Footer() {
             <i>Tabulo</i>
 
             <p>&copy; Copyright 2021. All Rights Reserved.</p>
+
         </footer>
     )
 }
 
+//exports
 export default Footer
